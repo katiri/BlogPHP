@@ -5,6 +5,13 @@ Este projeto consiste na criação de um blog em PHP, desenvolvido como parte de
 
 Este projeto será uma extensão do aprendizado teórico que venho publicando em <https://github.com/katiri/PHP>, permitindo a implementação de funcionalidades reais em um ambiente controlado e focado no desenvolvimento de habilidades em PHP.
 
+## Observações
+Este projeto é bem básico e aborda principalmente o sistema de inclusão de arquivos do PHP.
+
+O projeto também não utiliza um banco de dados e sim dados mocados, disponibilizados pelo curso.
+
+Para além do PHP o projeto também aborda um pouco sobre estrutura HTML, CSS e responsividade.
+
 ## Meta
 João Pedro Pazos Ramos - <jpedropazosramos@email.com>
 
