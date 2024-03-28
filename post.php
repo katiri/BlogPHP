@@ -40,22 +40,23 @@
             Magni dolor, nostrum dicta dolorem natus eius perspiciatis pariatur! Voluptate hic doloribus iure quaerat aperiam maxime expedita, mollitia nam error molestiae alias, laboriosam ullam fugit tenetur officiis, placeat non asperiores!
         </p>
     </div>
-</main>
-<aside id="nav-container">
-    <h3 id="tags-title">Tags</h3>
-    <ul id="tag-list">
-        <?php foreach($currentPost['tags'] as $tag): ?>
-            <li><a href="#"><?= $tag ?></a></li>
-        <?php endforeach; ?>
-    </ul>
+    <aside id="nav-container">
+        <h3 id="tags-title">Tags</h3>
+        <ul id="tag-list">
+            <?php foreach($currentPost['tags'] as $tag): ?>
+                <li><a href="#"><?= $tag ?></a></li>
+            <?php endforeach; ?>
+        </ul>
 
-    <h3 id="categories-title">Categorias</h3>
-    <ul id="categories -list">
-        <?php foreach($categories as $category): ?>
-            <li><a href="#"><?= $category ?></a></li>
-        <?php endforeach; ?>
-    </ul>
+        <h3 id="categories-title">Categorias</h3>
+        <ul id="categories-list">
+            <?php foreach($categories as $category): ?>
+                <li><a href="#"><?= $category ?></a></li>
+            <?php endforeach; ?>
+        </ul>
 </aside>
+</main>
+
 
 <?php
     include_once('./templates/footer.php');
